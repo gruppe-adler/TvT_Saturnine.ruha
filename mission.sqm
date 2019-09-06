@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5466.1494,23.58952,7324.1641};
-		dir[]={0.97800982,-0.19889079,0.06359566};
-		up[]={0.19852102,0.98000675,0.012909331};
-		aside[]={0.064895295,1.1021621e-006,-0.99794722};
+		pos[]={5466.1494,157.259,7324.1641};
+		dir[]={0.80791259,-0.56595039,0.16459441};
+		up[]={0.55457854,0.82441986,0.11298356};
+		aside[]={0.19964312,-1.5331898e-007,-0.9799301};
 	};
 };
 binarizationWanted=0;
@@ -4499,7 +4499,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5478.6812,12.93,7510.5542};
-			angle=0.44303435;
+			angle=0.44303432;
 			class Attributes
 			{
 				sizeA=40;
@@ -4632,7 +4632,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4543.2266,0.81521726,4701.5767};
-			angle=5.4977856;
+			angle=5.4977851;
 			class Attributes
 			{
 				sizeA=5500;
@@ -5219,6 +5219,7 @@ class Mission
 					};
 					id=1465;
 					type="O_Soldier_TL_F";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5339,7 +5340,7 @@ class Mission
 					};
 					id=1467;
 					type="O_Soldier_GL_F";
-					atlOffset=1.9073486e-006;
+					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5449,6 +5450,7 @@ class Mission
 			{
 			};
 			id=1464;
+			atlOffset=-9.5367432e-007;
 		};
 		class Item59
 		{
@@ -7023,6 +7025,7 @@ class Mission
 					};
 					id=1525;
 					type="O_Soldier_GL_F";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7154,6 +7157,7 @@ class Mission
 					};
 					id=2209;
 					type="rhs_uaz_open_vv";
+					atlOffset=-0.011234283;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7443,6 +7447,7 @@ class Mission
 					};
 					id=2210;
 					type="rhs_uaz_vv";
+					atlOffset=-0.0091362;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7732,6 +7737,7 @@ class Mission
 					};
 					id=2212;
 					type="rhs_zil131_msv";
+					atlOffset=-0.014231682;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7866,6 +7872,7 @@ class Mission
 					};
 					id=2214;
 					type="rhs_zil131_msv";
+					atlOffset=-0.02148819;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11811,6 +11818,7 @@ class Mission
 			};
 			id=2279;
 			type="rhs_Flag_Russia_F";
+			atlOffset=9.5367432e-007;
 		};
 		class Item92
 		{
@@ -12129,6 +12137,7 @@ class Mission
 			};
 			id=2298;
 			type="Land_House_2W02_F";
+			atlOffset=9.5367432e-007;
 		};
 	};
 	class Connections

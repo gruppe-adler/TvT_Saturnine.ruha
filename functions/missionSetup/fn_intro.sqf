@@ -8,8 +8,6 @@
 if (!hasInterface) exitWith {};
 [{!isNull player}, {
     [{
-        _missionName = getMissionConfigValue ["onLoadName", "NAME NOT FOUND"];
-        _text = format ["<img size= '6' style='vertical-align:middle' shadow='false' image='data\gruppe-adler.paa'/><br/><t size='.9' color='#FFFFFF'>%1</t>", _missionName];
-        [_text,0,0,2,2] spawn BIS_fnc_dynamicText;
+        [] execVM "USER\scripts\intro.sqf";
     }, [], 3] call CBA_fnc_waitAndExecute;
 }, []] call CBA_fnc_waitUntilAndExecute;

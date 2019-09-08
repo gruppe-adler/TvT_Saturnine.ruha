@@ -34,3 +34,6 @@
     [_firstActiveSectorID, _roundLength, _opforDirection, _dateAndTimeArray, _weatherArray] call grad_linearSD_fnc_startLinearSD;
 
 },[],[10,0] select didJIP] call CBA_fnc_waitAndExecute;
+
+
+[] exeCVM "USER\scripts\intro.sqf";

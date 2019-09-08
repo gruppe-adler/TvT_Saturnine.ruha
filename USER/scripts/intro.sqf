@@ -1,4 +1,5 @@
-sleep 6;
+sleep 15;
+playSound "intro";
 
 private _introPicBlack = findDisplay 46 ctrlCreate ["RscPicture", -1];
 _introPicBlack ctrlSetPosition [
@@ -14,8 +15,6 @@ _introPicBlack ctrlsetFade 0;
 _introPicBlack ctrlCommit 3;
 sleep 3;
 
-
-playSound "intro";
 
 sleep 10;
 

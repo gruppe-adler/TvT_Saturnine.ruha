@@ -1,4 +1,4 @@
-sleep 15;
+sleep 30;
 playSound "intro";
 
 private _introPicBlack = findDisplay 46 ctrlCreate ["RscPicture", -1];

@@ -5,6 +5,6 @@
 class intro {
     name = "intro";
     // filename, volume, pitch, distance (optional)
-    sound[] = {"USER\sounds\intro.ogg",0.90,1,500};
+    sound[] = {"USER\sounds\intro.ogg",0.25,1,500};
     titles[] = {0,""};
 };

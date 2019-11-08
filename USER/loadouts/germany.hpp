@@ -96,6 +96,11 @@ class germany {
 
         };
 
+         // SQL
+        class officer_F: Soldier_TL_F {
+
+        };
+
         //autorifleman
         class Soldier_AR_F: Soldier_F {
             primaryWeapon = "rhs_weap_minimi_para_railed";

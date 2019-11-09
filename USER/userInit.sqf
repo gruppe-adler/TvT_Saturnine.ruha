@@ -5,7 +5,7 @@
 [{
     _firstActiveSectorID = selectRandom [2,3];
     _roundLength = 1800;
-    _opforDirection = 1;
+    _opforDirection = -1;
 
     _dateAndTimeArray = [
         [1985,3,28,6,30],

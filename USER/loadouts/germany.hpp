@@ -53,9 +53,10 @@ class germany {
         // Rifleman
         class Soldier_F {
             addItemsToVest[] = {
-				LIST_10("rhssaf_30rnd_556x45_Tracers_G36"),
+				LIST_9("rhssaf_30rnd_556x45_Tracers_G36"),
 				LIST_2("HandGrenade"),
-				LIST_3("SmokeShell")
+				LIST_1("SmokeShell"),
+                "ACE_EntrenchingTool"
 			};
         };
 

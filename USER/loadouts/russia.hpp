@@ -57,6 +57,7 @@ class russia {
 				LIST_9("rhs_30Rnd_545x39_AK_plum_green"),
 				LIST_2("rhs_mag_rgd5"),
                 LIST_1("rhs_mag_rdg2_white"),
+                "ACE_EntrenchingTool"
 			};
         };
 

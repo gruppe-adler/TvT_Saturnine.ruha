@@ -1,8 +1,8 @@
 class germany {
     class AllUnits {
-        uniform = "SMM_Uniform_BW_TT";
+        uniform = "SMM_Uniform_BW_FT";
         backpack = "";
-        vest = "SMM_Vest_BW_TT";
+        vest = "SMM_Vest_BW_FT";
         primaryWeapon = "rhs_weap_g36kv";
         primaryWeaponMagazine = "rhssaf_30rnd_556x45_Tracers_G36";
         primaryWeaponMuzzle = "";
@@ -29,7 +29,7 @@ class germany {
         handgunWeaponPointer = "";
         handgunWeaponUnderbarrel = "";
         handgunWeaponUnderbarrelMagazine = "";
-        headgear = "SMM_Helmet_A_BW_TT";
+        headgear = "SMM_Helmet_A_BW_FT";
         goggles = "";
         nvgoggles = "";
         binoculars = "Binocular";
@@ -78,7 +78,7 @@ class germany {
 
         // TL
         class Soldier_TL_F: Soldier_F {
-            uniform  = "SMM_Uniform_BW_TT_RS";
+            uniform  = "SMM_Uniform_BW_FT_RS";
             primaryWeapon = "rhs_weap_g36kv_ag36";
             handgunWeapon = "rhs_weap_tr8";
             addItemsToVest[] = {
@@ -107,7 +107,7 @@ class germany {
             primaryWeapon = "rhs_weap_minimi_para_railed";
             primaryWeaponMagazine = "200Rnd_556x45_Box_Tracer_Red_F";
             primaryWeaponOptics = "";
-            backpack = "SMM_AssaultPack_BW_TT";
+            backpack = "SMM_AssaultPack_BW_FT";
             addItemsToVest[] = {
 				LIST_2("HandGrenade"),
 				LIST_2("SmokeShell")
@@ -119,7 +119,7 @@ class germany {
 
         //assistant autorifleman
         class Soldier_AAR_F: Soldier_F {
-            backpack = "SMM_AssaultPack_BW_TT";
+            backpack = "SMM_AssaultPack_BW_FT";
             addItemsToBackpack[] = {
                 LIST_3("200Rnd_556x45_Box_Tracer_Red_F")
             };
@@ -128,7 +128,7 @@ class germany {
 
 	class Rank {
 		class LIEUTENANT {
-            headgear = "SMM_MilCap_BW_TT";
+            headgear = "SMM_MilCap_BW_FT";
 		};
 	};
 };
